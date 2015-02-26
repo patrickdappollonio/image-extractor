@@ -7,7 +7,7 @@ iterates over the content to get any number of images that could be found.
 
 `extractor` only works finding JPG, GIF and PNG images for now.
 
-[![GoDoc](https://godoc.org/github.com/patrickdappollonio/image-extractor?status.png)](https://godoc.org/github.com/patrickdappollonio/image-extractor)
+[![GoDoc](https://godoc.org/github.com/patrickdappollonio/image-extractor?status.svg)](https://godoc.org/github.com/patrickdappollonio/image-extractor)
 
 [Online documentation](http://godoc.org/github.com/patrickdappollonio/image-extractor)
 

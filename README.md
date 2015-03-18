@@ -13,26 +13,26 @@ iterates over the content to get any number of images that could be found.
 
 Example usage:
 
-```golang
-	imageUrl := extractor.ImageExtractor{Content: text}.GetFirst()
-	fmt.Println(imageUrl)
+```go
+imageUrl := extractor.ImageExtractor{Content: text}.GetFirst()
+fmt.Println(imageUrl)
 ```
 
 You could also re-use the extractor, like this:
 
-```golang
-	ext := extractor.ImageExtractor{Content: text}
+```go
+ext := extractor.ImageExtractor{Content: text}
 
-	imageUrl := ext.GetFirst()
-	fmt.Println(imageUrl)
+imageUrl := ext.GetFirst()
+fmt.Println(imageUrl)
 
-	imageSlice := ext.GetAll()
-	fmt.Println(imageSlice)
+imageSlice := ext.GetAll()
+fmt.Println(imageSlice)
 
-	imageSlice = ext.GetNumber(5)
-	fmt.Println(imageSlice)
+imageSlice = ext.GetNumber(5)
+fmt.Println(imageSlice)
 ```
 
 ## Installation
 
-	go get -u github.com/patrickdappollonio/image-extractor
+`go get -u github.com/patrickdappollonio/image-extractor`
